@@ -20,7 +20,7 @@ variable "subnet_prefix" {
 
 variable "instance_type" {
   description = "Specifies the AWS instance type."
-  default     = "t2.micro"
+  default     = "t2.small"
 }
 
 variable "aws_default_keyname" {
