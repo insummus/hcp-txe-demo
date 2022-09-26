@@ -118,7 +118,6 @@ resource "aws_instance" "tfdemo" {
   }
 }
 
-/*
 ## Config Elastic IP
 resource "aws_eip" "tfdemo" {
   instance = aws_instance.tfdemo.id
@@ -132,4 +131,3 @@ resource "aws_eip_association" "tfdemo" {
   instance_id   = aws_instance.tfdemo.id
   allocation_id = aws_eip.tfdemo.id
 }
-*/
