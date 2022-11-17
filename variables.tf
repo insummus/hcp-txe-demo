@@ -25,6 +25,6 @@ variable "instance_type" {
 
 variable "aws_default_keyname" {
   description = "Default Keypair Name"
-  default     = "txe-demo-key.pem"
+  default     = "txe-demo-key"
 }
 
