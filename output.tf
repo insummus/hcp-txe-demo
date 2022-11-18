@@ -7,6 +7,8 @@ output "instance_public_ip" {
   description = "Public IP address of the EC2 instance"
   value       = "http://${aws_instance.tfdemo.public_ip}"
 }
+###
+# test
 
 /*
 output "instance_ip" {
