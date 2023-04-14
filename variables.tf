@@ -18,6 +18,7 @@ variable "subnet_prefix" {
   default     = "10.0.10.0/24"
 }
 
+## Policy Check - allow instance type
 variable "instance_type" {
   description = "Specifies the AWS instance type."
   default     = "t2.micro"
