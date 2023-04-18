@@ -21,8 +21,8 @@ variable "subnet_prefix" {
 ## Policy Check - allow instance type
 variable "instance_type" {
   description = "Specifies the AWS instance type."
-  default     = "t2.micro"
-  #default     = "m2.2xlarge"
+  #default     = "t2.micro"
+  default     = "m2.2xlarge"
 }
 
 variable "aws_default_keyname" {
