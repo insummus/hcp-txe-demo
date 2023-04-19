@@ -25,8 +25,8 @@ resource "aws_security_group" "tfdemo" {
   }
   ## Policy Check - SSH 22 Deny Policy ( 22 to 10022)
   ingress {
-    from_port   = 22
-    to_port     = 22
+    from_port   = 10022
+    to_port     = 10022
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
