@@ -30,3 +30,5 @@ variable "aws_default_keyname" {
   default     = "txe-demo-key"
 }
 
+
+## 변경사항
