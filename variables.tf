@@ -29,6 +29,3 @@ variable "aws_default_keyname" {
   description = "Default Keypair Name"
   default     = "txe-demo-key"
 }
-
-
-## 변경사항
