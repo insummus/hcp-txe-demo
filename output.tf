@@ -8,7 +8,7 @@ output "instance_public_ip" {
   value       = "http://${aws_instance.tfdemo.public_ip}"
 }
 ###
-# test
+# test - 20250120
 
 /*
 output "instance_ip" {
