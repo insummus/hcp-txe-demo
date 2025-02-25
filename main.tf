@@ -111,7 +111,7 @@ resource "aws_instance" "tfdemo" {
   associate_public_ip_address = true
   subnet_id                   = aws_subnet.tfdemo.id
   vpc_security_group_ids      = [aws_security_group.tfdemo.id]
-  key_name                    = var.aws_default_keyname
+  #key_name                    = var.aws_default_keyname
   user_data                   = file("user-data-httpd.sh")
   tags = {
     Name = "${var.prefix}-test-instance01"
